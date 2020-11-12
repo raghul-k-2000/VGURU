@@ -1,0 +1,272 @@
+@charset "ISO-8859-1";
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.text{
+  position: absolute;
+  top: 50px;
+  left:50px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 80%;
+  padding: 40px;
+}
+
+body 
+{
+   font-family: Arial, Helvetica, sans-serif;
+   background:url(realbrick.jpg) no-repeat;
+   background-size: 1360px 680px;
+   background-attachment:fixed;
+   
+}
+/*.navbar {
+  overflow: hidden;
+  background-color: #333;
+}*/
+/*.logo{
+	top:750px:
+	
+    font-size:80px;
+}*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  background-color:#ff8a05;/*yellow;#257d25;*/
+  color:black;
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+}
+.navbar a:hover {/*scrollcolour*/
+  background-color:white;/* #257d25;/*#ddd;*/
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color:#ff8a05;/* #257d25;*/
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {/*textbackground*/
+  display: none;
+  position: absolute;
+  background-color: white;/*#f9f9f9;*/
+  min-width: 30px;/*width of levels*/
+  box-shadow:white;
+  z-index: 1; 
+}
+.dropdown-content a {/*text levelshow*/
+  float: center;
+  color: black;
+  padding: 14px 13px;/* 20px;*/
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+.dropdown-content a:hover {/*scrollcolour*/
+  background-color:#ff8a05;/*#a4aba442; #257d25;/*#ddd;*/
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {background-color: white;
+}
+
+
+.career {
+  float: left;
+  overflow: hidden;
+}
+.careerbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color:#ff8a05;/* #257d25;*/
+  font-family: inherit;
+  margin: 0;
+}
+.career-content {/*textbackground*/
+  display: none;
+  position: absolute;
+  background-color: white;/*#f9f9f9;*/
+  min-width: 30px;/*width of levels*/
+  box-shadow:white;
+  z-index: 1; 
+}
+.career-content a {/*text levelshow*/
+  float: center;
+  color: black;
+  padding: 14px 19.5px;/* 20px;*/
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+.career-content a:hover {/*scrollcolour*/
+  background-color:#ff8a05;/*#a4aba442; #257d25;/*#ddd;*/
+}
+.career:hover .career-content {
+  display: block;
+}
+.career:hover .careerbtn {background-color: white;
+}
+
+
+.con a{
+	background-color: #ff8a05;
+	display:block;
+	/*margin-left:5px;*/
+    padding: 14px 16px;
+	float: left;
+	color:black;
+  font-size: 16px;
+  text-decoration: none;
+}
+.con a:hover {/*scrollcolour*/
+  background-color:white;/* #257d25;/*#ddd;*/
+}
+.space{
+	padding:23px;/* 1px;*/
+	background-color: #ff8a05;
+	margin-left:5px;
+	margin-right:81px;
+}
+.log a{
+	background-color: #ff8a05;
+	display:block;
+	/*padding-left:50px;*/
+	margin-top:-46px;
+    padding: 14px 16px;
+	float: right;
+	/*float:top;*/
+	color:black;
+  font-size: 16px;
+  text-decoration: none;
+}
+.log a:hover{
+	background-color:white;/* #257d25;/*#ddd;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+/*gallery desig*/
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+ /* border-radius:0px;*/
+  padding-top:30px;
+}
+
+/* Caption text */
+
+  
+  /*color:black;
+  margin-top:350px;
+  margin-left:-15px;
+ 
+  padding:white;
+  opacity:100%;*/
+  .text {
+  text-align:center;
+  color:#fd9800;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);/*#ff8a05;*/
+  margin-top:390px;
+  margin-left:-15px;
+  font-size:25px;
+  /*border-radius:20px;*/
+  padding:18px 16px;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color:white;/* #f2f2f2;*/
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  /*border-radius: 50%;*/
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.one{
+	color:#fd9800;
+	padding:8px 10px;
+	/*background:white;*/
+	text-align:center;
+	font-family: Arial;
+}
+.subtitle{
+	color:#fd9800;
+	font-family: Arial;
+	
+}
+.subtitle1{
+	color:white;
+	font-family: Arial;
+}
